@@ -6,9 +6,9 @@ As I'm new to coding, I want to store as much information as possible and be abl
 
 This project was built to help me take notes during the course, be able to easily access them and track my learning progress.
 
-The problem solved is the storage of information in one place, and the sharing option with others interested in seeing the contents of this bootcamp.
+The problem solved is the storage of information in one place, and the sharing ability with others interested in seeing the contents of this bootcamp.
 
-Througout this project, I learnt how to write the content of a web applications using HTML, style it with CSS and add interactive content using JavaScript. To achieve all of this, I also learnt how to use GitHub and push code.
+Throughout this project, I learnt how to write the content of a web applications using HTML, style it with CSS and add interactive content using JavaScript. To achieve all of this, I also learnt how to use GitHub and push code.
 
 ## Installation
 
