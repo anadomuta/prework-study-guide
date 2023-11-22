@@ -1,125 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Prework Study Guide</title>
-  </head>
-  <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
-    </header>
-    <main>
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-         <li>Structure of HTML:
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Prework Study Guide</title>
+</head>
+
+<body>
+  <header id="top">
+    <h1>Prework Study Guide</h1>
+    <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    <h2>✨ Open the Console to See What's Happening ✨</h2>
+  </header>
+  <main>
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
+      <ul>
+        <li>Structure of HTML:
           <ul>
-              <li><strong>!DOCTYPE html</strong> declaration: tells the browser what document type it should expect when it is opened</li>
-              <li><strong>html</strong>: represents the root, or start, of our HTML document.</li>
-              <li><strong>lang="en"</strong> attribute:  tells the browser the language for the webpage</li>
-              <li><strong>head</strong>: information about the webpage and helps the browser to render the page correctly.</li>
-              <li> <strong>body</strong>: visible content shown to the user.</li>
-              <li><strong>metadata</strong>: data about our webpage that the browser uses to effectively serve our webpage to users</li>
+            <li><strong>!DOCTYPE html</strong> declaration: tells the browser what document type it should expect when
+              it is opened</li>
+            <li><strong>html</strong>: represents the root, or start, of our HTML document.</li>
+            <li><strong>lang="en"</strong> attribute: tells the browser the language for the webpage</li>
+            <li><strong>head</strong>: information about the webpage and helps the browser to render the page correctly.
+            </li>
+            <li> <strong>body</strong>: visible content shown to the user.</li>
+            <li><strong>metadata</strong>: data about our webpage that the browser uses to effectively serve our webpage
+              to users</li>
           </ul>
         </li>
-            <li><strong>Semantic</strong> HTML elements: name describes its content and the role it plays on the webpage.
-              <br> Examples: 
-               <ol>
-                 <li><em>body</em></li>
-              </ol>
-            </li>
-            <li><strong>Non-semantic</strong> elements:
-            <ol>
-              <li><em>div</em></li>
-              <li><em>span</em></li>
-            </ol>
-        <li>It is best practice to use semantic elements whenever possible, especially when the content is visible to users.</li>
-        <li>HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</li>
+        <li><strong>Semantic</strong> HTML elements: name describes its content and the role it plays on the webpage. <br> Examples:
+          <ol>
+            <li><em>body</em></li>
+          </ol>
         </li>
-        </ul>
-      </section>
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-        <ul>
-          <li>3 ways to style a webpage using CSS:
-            <ol>
-              <li>Inline CSS: style element directly in the HTML</li>
-              <li>Internal CSS</li>
-              <li>External CSS: most common, allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
-            </ol>
-          </li>
-          <li><strong>selector</strong>: element or attributes to which the rules, or declarations, will apply</li>
-          <li><strong>margin</strong>: how much space we want around the outside of an element</li>
-          <li><strong>padding</strong>: adds space around the content inside an element</li>
-          <li><strong>* selector</strong>: apply a rule to all the elements visible on the page</li>
-        </ul>
-      </section>
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-     <ul>
-       <li><strong>git status</strong>: checks what branch we are currently on</li>
-       <li><strong>git checkout -b branch-name</strong>: creates a new branch and switches to it</li>
-       <li><strong>git diff --check</strong>: identifies possible whitespace errors and lists them for you</li>
-       <li><strong>git pull origin main</strong>: ensures that you have the latest version of the project on your local computer before you start to work.</li>
-       <li><em>GitHub Workflow</em>:
-        <ol>
-          <li>Check which branch you're currently on: <strong>git status</strong></li>
-          <li>Create a new branch off of the most recent version of the main branch: <strong>git checkout -b feature-name</strong></li>
-          <li>Work locally off of this new branch in Github Desktop
-            <ul>
-              <li>Best Practices:
-                <ul>
-                  <li>Make sure you are working on the current repository</li>
-                  <li>Make sure that you are correct branch</li>
-                  <li>Make sure you have the most recent version of that branch</li>
-                </ul>
-              </li>
-            </ul>
-          <li>Add or make content change in markdown files</li>
-          <li>Commit changes to this branch</li>
-          <li>Create a PR to merge the content change into main branch → make sure it is the right branch</li>
-          <li>Assign teammate to review and approve PR</li>
-          <li>Generate a link to preview content change with team</li>
-          <li>Once approved, merge changes from your branch into main branch</li>
-          </li>
-        </ol>
-       </li>
-     </ul>
-      </section>
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-     <ul>
-      <li>JavaScript is a <i>weakly typed language</i>, as it allows implicit type conversion when an operation involves mismatched types, instead of throwing type errors</li> 
-      <li>A <strong>function</strong> is different from a <strong>for</strong> loop or conditional statement because functions do not automatically execute when the JavaScript file</li>
-      <li><strong>Variable</strong>: named container that allows us to store data in our code
-        <ul>
-          <li>Examples of variables:
-            <ul>
-              <li>String = sequence of text</li>
-              <li>Number = without quotes</li>
-              <li>Boolean = true/false</li>
-              <li>Array = store multiple variables in a single reference</li>
-              <li>Object = can be anything</li>
+        <li><strong>Non-semantic</strong> elements:
+          <ol>
+            <li><em>div</em></li>
+            <li><em>span</em></li>
+          </ol>
+        <li>It is best practice to use semantic elements whenever possible, especially when the content is visible to
+          users.</li>
+        <li>HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent
+          element.</li>
+        </li>
+      </ul>
+    </section>
+    <section class="card" id="css-section">
+      <h2>CSS</h2>
+      <ul>
+        <li>3 ways to style a webpage using CSS:
+          <ol>
+            <li>Inline CSS: style element directly in the HTML</li>
+            <li>Internal CSS</li>
+            <li>External CSS: most common, allows developers to keep all their CSS rules in a separate file, which makes
+              design changes easier.</li>
+          </ol>
+        </li>
+        <li><strong>selector</strong>: element or attributes to which the rules, or declarations, will apply</li>
+        <li><strong>margin</strong>: how much space we want around the outside of an element</li>
+        <li><strong>padding</strong>: adds space around the content inside an element</li>
+        <li><strong>* selector</strong>: apply a rule to all the elements visible on the page</li>
+      </ul>
+    </section>
+    <section class="card" id="git-section">
+      <h2>Git</h2>
+      <ul>
+        <li><strong>git status</strong>: checks what branch we are currently on</li>
+        <li><strong>git checkout -b branch-name</strong>: creates a new branch and switches to it</li>
+        <li><strong>git diff --check</strong>: identifies possible whitespace errors and lists them for you</li>
+        <li><strong>git pull origin main</strong>: ensures that you have the latest version of the project on your local
+          computer before you start to work.</li>
+        <li><em>GitHub Workflow</em>:
+          <ol>
+            <li>Check which branch you're currently on: <strong>git status</strong></li>
+            <li>Create a new branch off of the most recent version of the main branch: <strong>git checkout -b
+                feature-name</strong></li>
+            <li>Work locally off of this new branch in Github Desktop
+              <ul>
+                <li>Best Practices:
+                  <ul>
+                    <li>Make sure you are working on the current repository</li>
+                    <li>Make sure that you are correct branch</li>
+                    <li>Make sure you have the most recent version of that branch</li>
+                  </ul>
+                </li>
               </ul>
-          </li>
-        </ul>
-       <li><strong>Comments</strong>: /* [text] */</li> 
-       <li><strong>Functions</strong>: way of packaging functionality that you wish to reuse</li>
-       <li><strong>Control flow</strong>: order in which a computer executes code in a script</li>
-       <li><strong>Events</strong>: code structures that listen for activity in the browser and run code in response</li>
-       <li><strong>Console.log</strong>: output a message to the web console by adding an argument</li>
-     </ul>
-      </section>
-    </main>
+            <li>Add or make content change in markdown files</li>
+            <li>Commit changes to this branch</li>
+            <li>Create a PR to merge the content change into main branch → make sure it is the right branch</li>
+            <li>Assign teammate to review and approve PR</li>
+            <li>Generate a link to preview content change with team</li>
+            <li>Once approved, merge changes from your branch into main branch</li>
+        </li>
+        </ol>
+        </li>
+      </ul>
+    </section>
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+      <ul>
+        <li>JavaScript is a <i>weakly typed language</i>, as it allows implicit type conversion when an operation
+          involves mismatched types, instead of throwing type errors</li>
+        <li>A <strong>function</strong> is different from a <strong>for</strong> loop or conditional statement because
+          functions do not automatically execute when the JavaScript file</li>
+        <li><strong>Variable</strong>: named container that allows us to store data in our code
+          <ul>
+            <li>Examples of variables:
+              <ul>
+                <li>String = sequence of text</li>
+                <li>Number = without quotes</li>
+                <li>Boolean = true/false</li>
+                <li>Array = store multiple variables in a single reference</li>
+                <li>Object = can be anything</li>
+              </ul>
+            </li>
+          </ul>
+        <li><strong>Comments</strong>: /* [text] */</li>
+        <li><strong>Functions</strong>: way of packaging functionality that you wish to reuse</li>
+        <li><strong>Control flow</strong>: order in which a computer executes code in a script</li>
+        <li><strong>Events</strong>: code structures that listen for activity in the browser and run code in response
+        </li>
+        <li><strong>Console.log</strong>: output a message to the web console by adding an argument</li>
+      </ul>
+    </section>
+  </main>
 
-    <footer>
-      <p>I can code!</p>
-    </footer>
-    <script src="./assets/script.js"></script>
-  </body>
+  <footer>
+    <p>I can code!</p>
+  </footer>
+  <script src="./assets/script.js"></script>
+</body>
+
 </html>
